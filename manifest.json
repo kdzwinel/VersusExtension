@@ -1,0 +1,16 @@
+{
+  "name": "Versus",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Compare number of Google results for two queries.",
+  "icons": {
+    "38": "icon-38.png",
+    "128": "icon-128.png"
+  },
+  "omnibox": { "keyword" : "vs" },
+  "permissions": ["<all_urls>"],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  }
+}
